@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('ruc')->unique();
             $table->mediumText('address');
             $table->string('email')->unique()->nullable();
-            $table->string('phpto')->nullable();
+            $table->string('photo')->nullable();
             $table->enum('status', ['ACTIVE', 'INACTIVE'])->default('ACTIVE');
             $table->timestamps();
         });
