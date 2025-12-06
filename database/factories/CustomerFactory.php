@@ -27,7 +27,7 @@ class CustomerFactory extends Factory
             'address' => $this->faker->address(),
             'photo' => $this->faker->imageUrl(100, 100, 'people'),
             'status' => $this->faker->randomElement(['ACTIVE', 'INACTIVE']),
-            'ruc' => $this->faker->unique()->numerify('###########')
+            'ruc' => $this->faker->unique()->numerify('###########'),
         ];
     }
 }
