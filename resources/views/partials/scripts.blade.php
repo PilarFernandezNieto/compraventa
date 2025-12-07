@@ -18,12 +18,9 @@
 {{-- Script principal del template --}}
 <script src="{{ asset('assets/js/plugins.js') }}"></script>
 
-{{-- Partículas (efecto visual del login) --}}
-<script src="{{ asset('assets/libs/particles.js/particles.js') }}"></script>
-<script src="{{ asset('assets/js/pages/particles.app.js') }}"></script>
 
-{{-- Mostrar/Ocultar contraseña --}}
-<script src="{{ asset('assets/js/project-js.js') }}"></script>
+
+
 <script src="{{ asset('assets/js/app.js') }}"></script>
 
 {{-- Archivos de Vite (Laravel Breeze) --}}
