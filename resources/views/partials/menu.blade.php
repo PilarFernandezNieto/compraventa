@@ -38,7 +38,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link menu-link" href="#sidebarDashboards">
+                    <a class="nav-link menu-link" href="{{ route('categorias.index') }}">
                         <i class="ri-dashboard-2-line"></i> <span data-key="t-categorias">Categorías</span>
                     </a>
 

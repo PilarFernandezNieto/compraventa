@@ -14,6 +14,7 @@
 <link href="{{ asset('assets/css/app.min.css') }}" rel="stylesheet">
 {{-- CSS personalizado --}}
 <link href="{{ asset('assets/css/custom.min.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/css/estilos.css') }}" rel="stylesheet">
 {{-- Archivos generados con Vite (Laravel Breeze) --}}
 @vite(['resources/css/app.css', 'resources/js/app.js'])
 

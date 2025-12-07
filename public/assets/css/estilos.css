@@ -1,0 +1,42 @@
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.main-content {
+    margin-top: 5rem;
+    padding: 5rem;
+}
+.edit-item-btn {
+    background-color: #2563eb;
+    display:flex;
+    justify-content: center;
+    padding: 10px 5px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    i {
+        color: #fff;
+    }
+    transition: all 3ms ease;
+}
+.edit-item-btn:hover {
+    background-color: #1e40af;
+    color: #FFF;
+}
+.remove-item-btn {
+    background-color: #dc2626;
+    display:flex;
+    justify-content: center;
+    padding: 10px 5px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    i {
+        color: #fff;
+    }
+    transition: all 3ms ease;
+}
+.remove-item-btn:hover {
+    background-color: #991b1b;
+    color: #FFF;
+}
