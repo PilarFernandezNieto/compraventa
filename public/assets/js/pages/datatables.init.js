@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
     $(document).ready(function () {
         if (!$.fn.DataTable.isDataTable('#tablaCategorias')) {
             $('#tablaCategorias').DataTable({
+                responsive: true,
+                autoWidth: false,
                 language: {
                     url: "/assets/datatables/spanish.json"
                 },
@@ -20,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         }
     });
+
 
     // Scroll vertical
     new DataTable("#scroll-vertical", {

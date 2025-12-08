@@ -8,7 +8,8 @@
 
                 </div>
                 <div class="card-body">
-                    <table id="tablaCategorias" class="table table-bordered dt-responsive nowrap table-striped align-middle"
+                    <table id="tablaCategorias"
+                           class="table table-bordered dt-responsive nowrap table-striped align-middle"
                            style="width:100%">
                         <thead>
                         <tr>
@@ -33,15 +34,13 @@
                                 </th>
                                 <td>{{$categoria->id}}</td>
                                 <td>{{$categoria->name}}</td>
-                                <td class="row justify-content-center gx-4">
-                                    <a class="edit-item-btn col-6"><i
-                                            class="ri-pencil-fill align-bottom me-2"></i> Edit</a>
+                                <td class="d-flex justify-content-between">
+                                    <a class="edit-item-btn"><i
+                                            class="ri-pencil-fill align-bottom me-2"></i> Editar</a>
 
-                                    <a class="remove-item-btn col-6">
-                                        <i class="ri-delete-bin-fill align-bottom me-2 "></i> Delete
+                                    <a class="remove-item-btn">
+                                        <i class="ri-delete-bin-fill align-bottom me-2 "></i> Borrar
                                     </a>
-
-
                                 </td>
                             </tr>
                         @endforeach
