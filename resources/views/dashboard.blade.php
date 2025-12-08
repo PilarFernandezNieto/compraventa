@@ -2,7 +2,7 @@
 
 @section('title', 'Panel de control')
 
-@section('page-title', 'Bienvenido al Dashboard')
+
 
 @section('content')
     <div class="page-content">
